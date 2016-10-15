@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="scripts/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/fetch.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/custom.css">
+  </head>
+
+  <body>
+  <div class="container">     
+		  <ul class="nav nav-tabs navbar-fixed-top" role="tablist">
+		    <li class="active custom-tab">
+				<a data-toggle="tab"  href="#live-score">Live Scores</a>
+			</li>
+			<li class="custom-tab">
+				<a data-toggle="tab"  href="#fixtures">Fixtures</a>
+			</li>   
+			<li class="custom-tab">
+				<a data-toggle="tab"  href="#news">Cricket News </a>
+			</li>       
+		  </ul>
+
+		  <div class="tab-content">
+    		<div id="live-score" class="tab-pane fade in active" >
+				<div id="matchData" class="">
+				</div>
+			</div>
+
+			<div id="fixtures" class="tab-pane fade" >
+				    <div id="matchList" class=""></div>
+			</div>
+
+			<div id="news" class="tab-pane fade" >
+				<div id="data" class=""></div>
+			</div>
+  		  </div>
+		</div>
+  </body>
+</html>

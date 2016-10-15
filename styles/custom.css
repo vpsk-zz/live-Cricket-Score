@@ -1,0 +1,127 @@
+body, .container {
+	width: 366px;
+	overflow-x: hidden;
+    margin:0;
+    padding:0;
+    background-image: url(../images/body.jpg);
+    background-size: cover;
+}
+.item:hover, .item:hover a {
+    background:#e1fec7;
+}
+
+.tag {
+    color:#60c00b;
+}
+
+.navbar { 
+	margin-bottom: 0px; 
+	border: none;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+}
+
+a {
+	color: black;
+}
+
+a:visited, a:hover, a:active , a:focus{
+    outline: none !important;
+    color: black;
+}
+
+
+.nav>li>a {
+    text-align: center;
+    border-right: 1px solid #dedede;
+    border-left: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #f0f0f0;
+    display: table-cell;
+    border-top-left-radius: 0;
+     border-top-right-radius: 0;
+}
+
+.custom-tab {
+    text-align: center;
+    border-right: 1px solid #dedede;
+    border-left: 0px;
+    color: #999;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #f0f0f0;
+    display: table-cell;
+}
+
+.tab-content {
+    margin-top: 45px;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    border-top: solid;
+    border-top-color: #3c8cc8;
+    width: 100%;
+    display: inline-block;
+}
+
+
+#logo {
+    float: right;
+    position: relative;
+    z-index: 100;
+    right: 0px;
+    top: 14px;
+    margin-top: -13px;
+    cursor:pointer;
+}
+
+h4 {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+
+.team-detail {
+    color: #333;
+    font-size: 15px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.team-name {
+    color: blue;
+    font-size: 16px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.score{
+    color: blueviolet;
+}
+
+.schedule-match-description .match-time {
+    color: #999;
+    font-size: 13px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    display: block;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ccc;
+}
+.post{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+

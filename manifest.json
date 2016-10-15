@@ -1,0 +1,23 @@
+{
+  "manifest_version" : 2,
+  "name": "Live Cricket Scoreboard",
+  "version": "0.1",
+  "description": "This extension shows live scoreboard for all cricket match.",
+  "icons": { "16" : "images/48.png",
+ 			"48" : "images/48.png",
+			"128" : "images/48.png"
+  },
+	"background": {
+    "page" : "background.html" 
+  },
+	"permissions": [
+    "geolocation",
+    "http://cricapi.com/api/*",
+    "http://api.openweathermap.org/data/2.5/*"
+	],
+	"browser_action": {
+    "default_icon": "images/48.png", 
+    "default_title": "Weather Notifier",      
+    "default_popup": "popup.html"       
+  }
+}
