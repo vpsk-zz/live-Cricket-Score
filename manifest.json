@@ -11,7 +11,7 @@
     "page" : "background.html" 
   },
 	"permissions": [
-    "http://cricapi.com/api/*",
+    "http://cricapi.com/api/*"
 	],
 	"browser_action": {
     "default_icon": "images/48.png", 
