@@ -1,4 +1,4 @@
-# Chrome extension to show Weather Report 
+# Chrome extension to show Live Cricket Score, Fixtures and Cricket News
 
 * [Getting Started](#getting-started)
 * [Installation](#installation)
