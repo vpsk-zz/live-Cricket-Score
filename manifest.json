@@ -11,13 +11,11 @@
     "page" : "background.html" 
   },
 	"permissions": [
-    "geolocation",
     "http://cricapi.com/api/*",
-    "http://api.openweathermap.org/data/2.5/*"
 	],
 	"browser_action": {
     "default_icon": "images/48.png", 
-    "default_title": "Weather Notifier",      
+    "default_title": "Score Notifier",      
     "default_popup": "popup.html"       
   }
 }
