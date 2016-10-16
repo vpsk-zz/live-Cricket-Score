@@ -62,7 +62,6 @@ function display_matchData(data) {
     if (data.matchStarted === true) {
         item = '<div class="post">';
         item += '<span class="tag"></span>\
-                  <div><h4 class="team-detail"><span>Team-1</span> <==> <span>Team-2</span></h4></div>\
                   <div><h4 class="team-name"><span>' + data.team1 + 'Team-1</span> Vs <span>' + data.team1 + '</span></h4></div>\
                   <div class="score">' + data.score + '</div>\
                   <div class="score">' + data.description + '</div>\
